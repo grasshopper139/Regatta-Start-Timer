@@ -111,7 +111,7 @@ def main() -> None:
     """
     Main logic
     """
-    race = Race(2)
+    race = Race(starts = 2)
 
     race_process = Process(target = race.run_race())
     race_process.start()
